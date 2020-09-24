@@ -3,9 +3,9 @@
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost/bcpt_soa_mc_test1?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1/my-soa?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: 000000
     driverClassName: com.mysql.cj.jdbc.Driver
     hikari:
       minimum-idle: 5
