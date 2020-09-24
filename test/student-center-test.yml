@@ -1,27 +1,8 @@
-
 # 数据库访问配置
 spring:
   datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost/bcpt_soa_mc_test1?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my-soa?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    port: 3306
     username: root
-    password: root
-    driverClassName: com.mysql.cj.jdbc.Driver
-    hikari:
-      minimum-idle: 5
-      maximum-pool-size: 50
-      #      max-lifetime: 30000
-      idle-timeout: 600000
-      connection-timeout: 30000
-      register-mbeans: true
-  #JPA Configuration:
-  jpa:
-    database: MYSQL
-    show-sql: true
-    generate-ddl: true
-    hibernate:
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-        strategy: org.hibernate.cfg.ImprovedNamingStrategy
-      ddl-auto: validate
-    database-platform: org.hibernate.dialect.MySQLDialect
+    password: "000000"
