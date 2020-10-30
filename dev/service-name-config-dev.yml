@@ -1,0 +1,6 @@
+com:
+  zfd:
+    application:
+      servername:
+        studnet: student-center
+        teacher: teacher-center
