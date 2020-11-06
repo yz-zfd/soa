@@ -2,5 +2,5 @@ com:
   zfd:
     application:
       servername:
-        studnet: student-center
+        student: student-center
         teacher: teacher-center
